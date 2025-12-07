@@ -1,6 +1,6 @@
 // src/components/GuessList.tsx
 import { type Character } from '../utils/gameLogic';
-import { GuessComparison } from './guessComparison';
+import { GuessComparison } from './GuessComparison';
 
 interface GuessListProps {
   guesses: Character[];

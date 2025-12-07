@@ -30,7 +30,7 @@ export function useGameState() {
       
       // Se é um novo dia, seleciona um novo personagem
       if (state.currentDate !== today) {
-        const { character, wasReset } = selectRandomCharacter();
+        const { character } = selectRandomCharacter();
         return {
           currentDate: today,
           todaysCharacter: character,
@@ -45,7 +45,7 @@ export function useGameState() {
     }
     
     // Primeira vez jogando - seleciona um personagem
-    const { character, wasReset } = selectRandomCharacter();
+    const { character } = selectRandomCharacter();
     return {
       currentDate: today,
       todaysCharacter: character,

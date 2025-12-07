@@ -137,10 +137,37 @@ function App() {
 
         {/* Guesses List */}
         {todaysCharacter && (
-          <div className="bg-stone-800/80 backdrop-blur-sm rounded-lg shadow-2xl border-2 border-stone-700 p-6">
+          <div className="bg-stone-800/80 backdrop-blur-sm rounded-lg shadow-2xl border-2 border-stone-700 p-6 mb-6">
             <GuessList guesses={gameState.guesses} target={todaysCharacter} />
           </div>
         )}
+
+        {/* Other Games Section */}
+        <footer className="mt-12 pt-8 border-t-2 border-stone-700">
+          <div className="text-center">
+            <h3 className="text-2xl font-bold text-stone-300 mb-4">
+              Try my other games!
+            </h3>
+            <a
+              href="https://breakingbadle.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-gradient-to-r from-stone-700 to-stone-600 hover:from-stone-600 hover:to-stone-500 text-stone-100 font-bold py-4 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-2xl border-2 border-stone-500 hover:border-stone-400"
+            >
+              <div className="flex items-center gap-3">
+                <span className="text-2xl">🧪</span>
+                <div className="text-left">
+                  <div className="text-xl">Breaking Badle</div>
+                  <div className="text-sm text-stone-300 font-normal">Guess Breaking Bad characters!</div>
+                </div>
+                <span className="text-xl">→</span>
+              </div>
+            </a>
+            <p className="text-stone-500 text-sm mt-4">
+              More character guessing games coming soon...
+            </p>
+          </div>
+        </footer>
       </div>
     </div>
   );
