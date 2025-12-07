@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Circular maze paths - Green gradient -->
+  <defs>
+    <linearGradient id="mazeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4ade80;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#10b981;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer circle -->
+  <circle cx="50" cy="50" r="45" fill="none" stroke="url(#mazeGradient)" stroke-width="2"/>
+  
+  <!-- Second circle -->
+  <circle cx="50" cy="50" r="36" fill="none" stroke="url(#mazeGradient)" stroke-width="2"/>
+  
+  <!-- Third circle -->
+  <circle cx="50" cy="50" r="27" fill="none" stroke="url(#mazeGradient)" stroke-width="2"/>
+  
+  <!-- Fourth circle -->
+  <circle cx="50" cy="50" r="18" fill="none" stroke="url(#mazeGradient)" stroke-width="2"/>
+  
+  <!-- Center circle -->
+  <circle cx="50" cy="50" r="9" fill="url(#mazeGradient)"/>
+  
+  <!-- Radial walls creating maze effect -->
+  <line x1="50" y1="5" x2="50" y2="23" stroke="url(#mazeGradient)" stroke-width="2"/>
+  <line x1="50" y1="32" x2="50" y2="41" stroke="url(#mazeGradient)" stroke-width="2"/>
+  
+  <line x1="75" y1="25" x2="64" y2="32" stroke="url(#mazeGradient)" stroke-width="2"/>
+  <line x1="59" y1="36" x2="54" y2="39" stroke="url(#mazeGradient)" stroke-width="2"/>
+  
+  <line x1="88" y1="50" x2="77" y2="50" stroke="url(#mazeGradient)" stroke-width="2"/>
+  <line x1="68" y1="50" x2="59" y2="50" stroke="url(#mazeGradient)" stroke-width="2"/>
+  
+  <line x1="75" y1="75" x2="64" y2="68" stroke="url(#mazeGradient)" stroke-width="2"/>
+  <line x1="59" y1="64" x2="54" y2="61" stroke="url(#mazeGradient)" stroke-width="2"/>
+  
+  <line x1="50" y1="95" x2="50" y2="77" stroke="url(#mazeGradient)" stroke-width="2"/>
+  <line x1="50" y1="68" x2="50" y2="59" stroke="url(#mazeGradient)" stroke-width="2"/>
+  
+  <line x1="25" y1="75" x2="36" y2="68" stroke="url(#mazeGradient)" stroke-width="2"/>
+  <line x1="41" y1="64" x2="46" y2="61" stroke="url(#mazeGradient)" stroke-width="2"/>
+  
+  <line x1="12" y1="50" x2="23" y2="50" stroke="url(#mazeGradient)" stroke-width="2"/>
+  <line x1="32" y1="50" x2="41" y2="50" stroke="url(#mazeGradient)" stroke-width="2"/>
+  
+  <line x1="25" y1="25" x2="36" y2="32" stroke="url(#mazeGradient)" stroke-width="2"/>
+  <line x1="41" y1="36" x2="46" y2="39" stroke="url(#mazeGradient)" stroke-width="2"/>
+  
+  <!-- Diagonal walls -->
+  <line x1="68" y1="32" x2="59" y2="41" stroke="url(#mazeGradient)" stroke-width="2"/>
+  <line x1="68" y1="68" x2="59" y2="59" stroke="url(#mazeGradient)" stroke-width="2"/>
+  <line x1="32" y1="68" x2="41" y2="59" stroke="url(#mazeGradient)" stroke-width="2"/>
+  <line x1="32" y1="32" x2="41" y2="41" stroke="url(#mazeGradient)" stroke-width="2"/>
+</svg>
